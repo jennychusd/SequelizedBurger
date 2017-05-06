@@ -1,6 +1,7 @@
 ### Schema
 
-USE heroku_7aab7fd98f89c29;
+CREATE DATABASE seqburger_db;
+USE seqburger_db;
 
 CREATE TABLE `burgers`
 (
