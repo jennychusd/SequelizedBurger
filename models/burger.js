@@ -1,3 +1,5 @@
+var sequelize = require("sequelize");
+
 module.exports = function (sequelize, DataTypes) {
   var Burger = sequelize.define("Burger", {
     id: {
